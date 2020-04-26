@@ -1,0 +1,91 @@
+.container{
+    /* Step 1: Set display to grid */
+      display:grid;
+   /* Step 2: setup rows amd columns */
+   /* Step : setup named grid areas */
+  
+      border: 2px solid ;
+
+  }
+  .box{
+    border: 1px solid ;
+    
+    }
+
+  .header{
+      /* Set elements grid-area here */
+  }
+
+  .footer{
+    /* Set elements grid-area here */
+  }
+  .feature{
+    /* Set elements grid-area here */
+  }
+  .content{
+    /* Set elements grid-area here */
+  }
+  form {
+    width: 500px;
+    padding: 10px;
+    margin: 10px auto;
+    
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+}
+
+input:focus {
+    color:red
+}
+
+input:hover {
+    background-color: seagreen;
+}
+
+button {
+    border: none;
+    background-color: royalblue;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: seagreen;
+}
+button:focus{
+    background-color: sienna;
+}
+
+}
+fieldset{
+    border-radius: 10px;
+    border: 2px solid lightblue;
+}
+legend{
+    background-color: royalblue;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+.centre{
+    text-align: center;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+body {
+    
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  text-align: center;
+}

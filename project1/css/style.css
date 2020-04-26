@@ -1,0 +1,53 @@
+.container{
+    /* Step 1: Set display to grid */
+      display:grid;
+   /* Step 2: setup rows amd columns */
+      /* grid-template-columns: repeat(3, 1fr); */
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 250px 600px;
+      grid-template-areas: 
+      "hd hd hd hd hd hd hd hd"
+      "sd sd main main main main main main"
+      "ft ft ft ft ft ft ft ft";
+      border: 2px solid white;
+      
+
+  }
+  .box{
+  /* width: 250px;
+    height: 150px; */
+    border: 1px solid;
+    background: white;
+    }
+
+  .header{
+    /* row start/column start/ row end/ column end */
+    grid-area:hd;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    background-color: lightblue;
+    text-transform: capitalize;
+    
+  }
+
+  .footer{
+    grid-area: ft;  
+    background-color: lightblue;
+  }
+  .sidebar{
+    grid-area: sd;
+    background-color: lightblue;
+  }
+  .content{
+    background-image:url('img1.jpg');
+    grid-area: main;
+  
+    background-size: cover;
+    
+
+  }
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
